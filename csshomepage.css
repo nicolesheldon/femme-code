@@ -3,46 +3,56 @@ ul {
   background-color: black;
   color: white;
 }
+
 li {
   display: inline;
   padding: 0px 75px 0px 75px;
   font-size: 40px;
 }
+
 .nav a {
   color: white;
 }
+
 body {
   font-family: "Courier New";
   background-color: black;
 }
+
 .Wow {
   background-color: black;
   text-align: center;
   color: white;
 }
+
 .contact {
   background-color: black;
   color: white;
   padding: 10px 10px 10px 10px;
 }
+
 .title {
   font-size: 150px;
 }
+
 .mission {
   font-size: 35px;
   background-color: black;
   color: white;
 }
+
 .wowblurb {
   font-size: 25px;
 }
+
 .wowlist a {
-  color: white
-  font-size: 25px;
+  color: white font-size: 25px;
 }
+
 .wowtitle {
   font-size: 40px;
 }
+
 .jumbotron {
   background-image: url("background2.jpg");
   background-size: cover;
@@ -52,9 +62,24 @@ body {
   color: white;
   text-align: center;
 }
+
 .polltext {
   font-size: 50px;
 }
+
 .poll {
   font-size: 50px;
+}
+
+.navimage {
+  height: 4%;
+  width: 3%;
+}
+a.femme {
+  color: pink;
+}
+
+.wowimage {
+  height:80%;
+  width:55%;
 }

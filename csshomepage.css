@@ -79,17 +79,22 @@ body {
 .wowimage {
   height:80%;
   width:55%;
-  
+
 }
 
 .pinktext {
   color: #d1128b;
 }
 
-.Wow {
-  font-size: 100px;
+.Title2 {
+  font-size: 300px;
+}
+
+.Title3 {
+  font-size: 200px;
 }
 
 .Contact {
   background-color: #d1128b;
+  font-size: 30px;
 }

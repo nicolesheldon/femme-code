@@ -23,12 +23,14 @@ body {
   background-color: #ef86c9;
   text-align: center;
   color: white;
+  font-style: italic;
 }
 
 .contact {
   background-color: #6f6f77;
   color: white;
   padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .title {
@@ -94,6 +96,7 @@ body {
   color: #ef86c9;
 }
 
+<<<<<<< HEAD
 .greytext {
   color: #6f6f77;
 }
@@ -113,6 +116,14 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+=======
+.Wow {
+  font-size: 100px;
+}
+
+.Contact {
+  background-color: #d1128b;
+>>>>>>> parent of 10a13b9... hello
 }
 
 .btn-lg {

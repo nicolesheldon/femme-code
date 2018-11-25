@@ -96,6 +96,7 @@ body {
   color: #ef86c9;
 }
 
+<<<<<<< HEAD
 .greytext {
   color: #6f6f77;
 }
@@ -115,4 +116,12 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+=======
+.Wow {
+  font-size: 100px;
+}
+
+.Contact {
+  background-color: #d1128b;
+>>>>>>> parent of 10a13b9... hello
 }

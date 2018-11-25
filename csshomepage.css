@@ -1,6 +1,6 @@
-ul {
+.navbar {
   padding: 10px;
-  background-color: #d1128b;
+  background-color: #ef86c9;
   color: white;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .Wow {
-  background-color: #6f6f77;
+  background-color: #ef86c9;
   text-align: center;
   color: white;
   font-style: italic;
@@ -38,9 +38,12 @@ body {
 }
 
 .mission {
-  font-size: 35px;
+  font-size: 50px;
   background-color: #6f6f77;
   color: white;
+  text-align: center;
+  margin-left:20%;
+  margin-right: 20%;
 }
 
 .wowblurb {
@@ -48,11 +51,13 @@ body {
 }
 
 .wowlist a {
-  color: white font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
 
 .wowtitle {
-  font-size: 40px;
+  font-size: 100px;
+  color: #6f6f77;
 }
 
 .jumbotron {
@@ -79,24 +84,35 @@ body {
 }
 
 .wowimage {
-  height:80%;
-  width:55%;
+  height:50%;
+  width:30%;
+}
 
+.contactp {
+  font-size: 50px;
 }
 
 .pinktext {
-  color: #d1128b;
+  color: #ef86c9;
+}
+
+.greytext {
+  color: #6f6f77;
 }
 
 .Title2 {
-  font-size: 300px;
-}
-
-.Title3 {
   font-size: 200px;
 }
 
 .Contact {
-  background-color: #d1128b;
+  background-color: #6f6f77;
   font-size: 30px;
+  text-align:center;
+}
+
+.wowblurb {
+  font-size: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
 }

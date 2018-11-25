@@ -1,6 +1,6 @@
 ul {
   padding: 10px;
-  background-color: black;
+  background-color: #d1128b;
   color: white;
 }
 li {
@@ -13,7 +13,7 @@ li {
 }
 body {
   font-family: "Courier New";
-  background-color: black;
+  background-color: #6f6f77;
   color: white;
   text-align: center;
 }

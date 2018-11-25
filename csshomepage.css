@@ -121,6 +121,7 @@ body {
   background-color: #d1128b;
 }
 
+<<<<<<< HEAD
 .btn-lg {
   border: none;
   color: white;
@@ -129,6 +130,10 @@ body {
   text-decoration: none;
   display: inline-blockquote;
   font-size: 300px;
+=======
+.vote li {
+  color: black;
+>>>>>>> d954c5173a677d292329b8dd61bb5b7d5d1c332b
 }
 .jumbotron2 {
   background-color:#d1128b

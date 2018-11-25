@@ -1,6 +1,6 @@
 ul {
   padding: 10px;
-  background-color: black;
+  background-color: #d1128b;
   color: white;
 }
 
@@ -16,17 +16,17 @@ li {
 
 body {
   font-family: "Courier New";
-  background-color: black;
+  background-color: #6f6f77;
 }
 
 .Wow {
-  background-color: black;
+  background-color: #6f6f77;
   text-align: center;
   color: white;
 }
 
 .contact {
-  background-color: black;
+  background-color: #6f6f77;
   color: white;
   padding: 10px 10px 10px 10px;
 }
@@ -37,7 +37,7 @@ body {
 
 .mission {
   font-size: 35px;
-  background-color: black;
+  background-color: #6f6f77;
   color: white;
 }
 
@@ -75,11 +75,20 @@ body {
   height: 4%;
   width: 3%;
 }
-a.femme {
-  color: pink;
-}
 
 .wowimage {
   height:80%;
   width:55%;
+}
+
+.pinktext {
+  color: #d1128b;
+}
+
+.Wow {
+  font-size: 100px;
+}
+
+.Contact {
+  background-color: #d1128b;
 }

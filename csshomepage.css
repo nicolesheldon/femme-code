@@ -78,8 +78,8 @@ body {
 }
 
 .navimage {
-  height: 4%;
-  width: 3%;
+  height: 20%;
+  width: 15%;
 }
 
 .wowimage {
@@ -120,12 +120,6 @@ body {
   background-color: #d1128b;
 }
 
-.btn-lg {
-  border: none;
-  color: white;
-  padding: 100px 320px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-blockquote;
-  font-size: 160px;
+.vote li {
+  color: black;
 }

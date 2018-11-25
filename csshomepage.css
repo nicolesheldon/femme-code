@@ -23,12 +23,14 @@ body {
   background-color: #6f6f77;
   text-align: center;
   color: white;
+  font-style: italic;
 }
 
 .contact {
   background-color: #6f6f77;
   color: white;
   padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .title {
@@ -79,7 +81,7 @@ body {
 .wowimage {
   height:80%;
   width:55%;
-  
+
 }
 
 .pinktext {

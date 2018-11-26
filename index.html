@@ -8,31 +8,37 @@
 <body>
   <div>
     <header>
-      <ul class="navbar">
-        <li> <img class='navimage' src="logo.jpeg"></li>
-        <li class='nav'><a href="index.html">Home</a></li>
-        <li class='nav'><a href="news.html">News</a></li>
-        <li class='nav'><a href="#">Get Involved</a></li>
-        <li class='nav'><a href="#">Gallery</a></li>
-        <li class='nav'><a href="#">Contact Us</a></li>
-      </ul>
-    </header>
-  </div>
-  <div class='jumbotron'>
-    <div class="row">
-      <div class="col-sm-8">
-        <h1 class="title1">The <b><span class="pinktext">Femme</span></b> Files</h1>
-      </div>
-    </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!--- <li><a href="#" class="pull-left"><img class="navimage" src="logo.jpeg" style="display: inline-block;"></a></li>-->
+             <!--<li><img class='navimage' src="logo.jpeg"></li>-->
+             <li><a href="#"><b><span class="greytext">Home</span></b></a></li>
+             <li><a href="#"><b><span class="greytext">News</span></b></a></li>
+             <li><a href="#"><b><span class="greytext">Get involved</span></b></a></li>
+             <li><a href="#"><b><span class="greytext">Gallery</span></b></a></li>
+             </ul>
+             <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success my-2 my-sm-0 type="submit">Search</button>
+             </form>
+       </div>
+     </nav>
+     </header>
   </div>
 
+  <div class='jumbotron'>
+        <h1 class="title1">The<b><span class="pinktext">Femme</span></b> Files</h1>
+    </div>
+
   <div>
-    <h2 class="mission"><b><span class="pinktext">Our Mission:</span></b>We are a St Andrews based initiative committed to empowering women. We hope to achieve this by informing our readers of current affairs pertaining to women's rights in our news forum and promoting ways to get
+    <h2 class="mission"><b><span class="pinktext">Our Mission:</span></b>We are a St Andrews based initiative committed to empowering women. We hope to achieve this by informing our readers of current affairs pertaining to women's rights in our news
+      forum and promoting ways to get
       involved in the motion for change within St Andrews in our events section.</h2>
   </div>
   <div class="Wow">
     <h1 class="Title2"><b><span class="greytext">WoW: </span></b><b><span class="greytext">W</span></b>oman <b><span class="greytext">o</span></b>f the <b><span class="greytext">W</span></b>eek</h1>
-    <img class="wowimage" src="WoWimage.jpeg">
+    <img class="img-circle" src="WoWimage.jpeg">
     <h1 class="wowtitle"><b>Scarlett Curtis</b></h1>
     <p class="wowblurb">Scarlett Curtis, this week's WoW is a contributing editor and columnist of The Sunday Times Style Magazine. The list of major publications she has written for is expansive including The Guardian, GLAMOUR, Elle, InStyle, The
       Telegraph, Tatler and Vogue, but this is not all that is impressive about Curtis. In 2017, Scarlett founded The Pink Protest with Grace Campbell and Alice Skinner; The Pink Protest is dedicated to engaging in action and supporting the
@@ -50,42 +56,47 @@
         <li class='wowlist'><a href="https://www.freeperiods.org/">www.freeperiods.org</a></li>
         <li class='wowlist'><a href="https://www.girlup.org/#sthash.zjuHPKbU.dpbs">www.girlup.org</a></li>
       </ul>
+
     </p>
-    <h4 class="polltext">Who should our next week's WoW be?</h4>
+    <h4 class="polltext"><b>Who should our next week's WoW be?</b></h4>
     <ul>
-
-      <li class="vote"><button class="btn-lg">Michelle Obama</button></li>
-      <li class="vote"><button class="btn-lg">Malala Yousafzai</button></li>
+      <li class="vote"><button class="btn-md">Michelle Obama</button></li>
+      <li class="vote"><button class="btn-md">Malala Yousafzai</button></li>
     </ul>
-
   </div>
 
-<div class='jumbotron2'>
+
+
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
         <h1>Contact Us!</h1>
         <p class="contactp">Email us at <b><span class="pinktext">thefemmefiles@gmail.com</span></b></p>
-
         <h1>Subscribe to our newsletter!</h1>
         <input type="email" placeholder="Your Email">
         <input type="Submit">
+        <h1>Follow us on:</h1>
+        <div id='social-buttons'>
+          <button class="btn btn-md btn-twitter"><b>Twitter</b></button>
+          <button class="btn btn-md btn-facebook"><b>Facebook</b></button>
+          <button class="btn btn-md btn-pinterest"><b>Pinterest</b></button>
+        </div>
       </div>
       <div class="col-sm-4">
         <img class="img-responsive" src='logo.jpeg'>
       </div>
-      <div class='social-buttons'>
-        <button class="btn btn-lg btn-twitter">Twitter</button>
-        <button class="btn btn-lg btn-facebook">Facebook</button>
-        <button class="btn btn-lg btn-pinterest">Pinterest</button>
-        </div>
+    </div>
+  </div>
 
-</div>
-</div>
-</div>
-</div>
+  <script>
+$("button").on("click"), function() {
+  alert("Thank you for voting! Currently 45% have voted for Michelle Obama and 55% have voted for Malala Yousafzai.")
+});
+    </script>
+</body>
 
-  <div class="contact">
+
+<!--... <div class="contact">
     <h1>Contact Us</h1>
     <p class="contactp">Email us at <b><span class="pinktext">thefemmefiles@gmail.com</span></b></p>
     <h1>Follow Us</h1>
@@ -93,5 +104,4 @@
     <h1>Subscribe to our newsletter!</h1>
     <input type="email" placeholder="Your Email">
     <input type="Submit">
-  </div>
-</body>
+  </div> -->

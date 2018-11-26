@@ -29,6 +29,11 @@ h1 {
 img {
   height: 400px;
   width: 400px;
+  padding: 10px;
+}
+
+blockquote {
+  padding: 50px;
 }
 
 p {

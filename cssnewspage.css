@@ -1,46 +1,144 @@
-ul {
-  padding: 10px;
-  background:#ef86c9;
-  color: white;
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ef86c9;
 }
+
 li {
   display: inline;
   padding: 0px 75px 0px 75px;
   font-size: 40px;
 }
-.nav a {
-  color: white;
-}
+
 .title {
   font-size: 75px;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   color: white;
 }
+
 body {
   font-family: "Courier New";
   background-color: #6f6f77;
 }
+
 .newsheadlines {
   text-align: center;
   font-size: 40px;
-  color: white;
+  color: #ef86c9;
 }
+
 .mission {
   text-align: center;
   color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
+
+.headingnews1 {
+  background-color:#ef86c9;
+}
+
+.headingnews2 {
+  background-color: #ef86c9;
+  margin-top: 10%;
+}
+.content {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
 .bodytext {
   color: white;
   text-align: center;
 }
+
 .images {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .navimage {
   height: 10%;
   width: 5%;
+}
+
+.greytext {
+  color: #6f6f77;
+}
+
+.pinktext {
+  color: #ef86c9;
+}
+
+.newsheading {
+  background-color: #6f6f77;
+  color: white;
+  font-size: ;
+  text-align: center;
+}
+
+.newsheading h1 {
+  font-size: 150px;
+}
+
+.container-fluid2 {
+  margin-top: 5%;
+  background-color: #ef86c9;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.img-responsive {
+  height: 25%;
+  width: 25%;
+}
+
+.contactp {
+  font-size: 20px;
+  text-align: center;
+}
+
+.contacth {
+  font-size: 30px;
+}
+
+.input {
+  color: #6f6f77;
+}
+
+.btn-twitter {
+  background: #00acee;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-facebook {
+  background: #4868ac;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-pinterest {
+  background: #b62f26;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-md {
+  color: black;
+}
+
+.newsone {
+  margin-bottom: 5%;
+}
+.newstwo {
+  margin-bottom: 5%;
+}
+.newsthree {
+  margin-bottom: 5%;
 }

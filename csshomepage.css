@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-.title {
+.jumbotron h1 {
   font-size: 150px;
 }
 
@@ -111,10 +111,6 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
-}
-
-.Contact {
-  background-color: #d1128b;
 }
 
 .btn-lg {

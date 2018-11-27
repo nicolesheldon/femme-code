@@ -103,3 +103,8 @@ li {
 .input {
   color: #6f6f77;
 }
+
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+}

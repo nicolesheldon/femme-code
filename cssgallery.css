@@ -13,11 +13,13 @@ body {
   font-family: "Courier New";
   background-color: #6f6f77;
   margin: auto;
+  color: white;
 }
 
 .nav a {
   color: white;
 }
+
 .title {
   font-size: 75px;
   text-align: center;

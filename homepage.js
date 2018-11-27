@@ -1,1 +1,2 @@
-$('button').onclick('green')  
+
+alert("Hello, and welcome to our website!");

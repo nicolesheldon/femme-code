@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="csshomepage.css">
+  <script src="homepage.js"></script>
 
 
 </head>
@@ -62,8 +63,8 @@
     </p>
     <h4 class="polltext"><b>Who should our next week's WoW be?</b></h4>
     <ul>
-      <li class="vote"><button class="btn-md btn-vote" onclick="myFunction()">Michelle Obama</button></li>
-      <li class="vote"><button class="btn-md btn-vote">Malala Yousafzai</button></li>
+      <li class="vote"><button class="btn-md btn-vote" onclick="voteButton()">Michelle Obama</button></li>
+      <li class="vote"><button class="btn-md btn-vote" onclick="voteButton()">Malala Yousafzai</button></li>
     </ul>
   </div>
 
@@ -90,14 +91,10 @@
     </div>
   </div>
 
-  <script>
-$("btn-vote").on("click"), function() {
-  alert("Thank you for voting! Currently 45% have voted for Michelle Obama and 55% have voted for Malala Yousafzai.")
-});
 
 
 
 
-<script src="homepage.js"></script>
+
 </body>
 </html>

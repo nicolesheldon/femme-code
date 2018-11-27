@@ -37,13 +37,14 @@ body {
 }
 
 .headingnews1 {
-  background-color:#ef86c9;
+  background-color: #ef86c9;
 }
 
 .headingnews2 {
   background-color: #ef86c9;
   margin-top: 10%;
 }
+
 .content {
   margin-left: 8%;
   margin-right: 8%;
@@ -136,9 +137,11 @@ body {
 .newsone {
   margin-bottom: 5%;
 }
+
 .newstwo {
   margin-bottom: 5%;
 }
+
 .newsthree {
   margin-bottom: 5%;
 }
